@@ -21,7 +21,6 @@ sub all_pages {
         ['trading-times',              'static/trading_times',         'full_width', 'Trading Times'],
         ['redirect',                   'static/common/logged_in',      'full_width', 'Redirecting...'],
         ['refer-a-friend',             'static/refer_a_friend',        'full_width', 'Refer A Friend'],
-        ['free-bonus',                 'static/free_bonus',            'full_width', 'Free Bonus'],
         ['milestones',                 'static/milestones',            'full_width', 'Milestones'],
 
         ['binary-options',             'static/binary_options/binary_options',    'full_width', 'Binary Options'],
@@ -30,9 +29,8 @@ sub all_pages {
         ['how-to-trade-binary-options','static/binary_options/how_to',            'full_width', 'How to trade binary options'],
 
         ['forex',                      'mt5/forex/index',              'full_width', 'Forex'],
-        ['forex/accounts/cent',        'mt5/forex/accounts/cent',      'full_width', 'Cent Account'],
         ['forex/accounts/standard',    'mt5/forex/accounts/standard',  'full_width', 'Standard Account'],
-        ['forex/accounts/stp',         'mt5/forex/accounts/stp',       'full_width', 'STP Account'],
+        ['forex/accounts/advanced',    'mt5/forex/accounts/advanced',  'full_width', 'Advanced Account'],
         ['cfd',                        'mt5/cfd',                      'full_width', 'Contracts for Difference'],
         ['metals',                     'mt5/metals',                   'full_width', 'Metals'],
         ['mt5-web-platform',           'mt5/mt5_web_platform',         'full_width', 'MetaTrader 5 Web Platform'],
